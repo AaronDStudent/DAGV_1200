@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: Lamp.ma
-//Last modified: Thu, Feb 22, 2024 11:44:56 PM
+//Last modified: Thu, Feb 22, 2024 11:45:41 PM
 //Codeset: 1252
 requires maya "2024";
 requires -nodeType "mayaUsdLayerManager" -dataType "pxrUsdStageData" "mayaUsdPlugin" "0.25.0";
@@ -11,12 +11,12 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202310181224-69282f2959";
 fileInfo "osv" "Windows 10 Home v2009 (Build: 19045)";
-fileInfo "UUID" "4E9CACFC-4EBE-9D85-5DF6-61B5041C1B4B";
+fileInfo "UUID" "64639E15-4A71-1684-1848-4F9DB2C2BD9A";
 createNode transform -s -n "persp";
 	rename -uid "2ABFC725-4BB4-8FA6-CBA6-6E995CCEFBDB";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -6.8080230468450047 9.7440214515888748 5.474828550739991 ;
-	setAttr ".r" -type "double3" -37.800000000003692 1034.7999999992073 -2.2568835266117421e-15 ;
+	setAttr ".t" -type "double3" -3.1781425387750875 9.9995381062032909 7.3913868142333783 ;
+	setAttr ".r" -type "double3" -39.600000000003895 1063.999999999204 -1.6543646204333273e-15 ;
 	setAttr ".rpt" -type "double3" -4.2717892249564782e-17 7.1830664689234019e-17 -5.6847076494733062e-18 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "D55B34ED-4FBA-0BF2-3CED-6F8AAD76BBF8";
@@ -1980,7 +1980,7 @@ createNode groupId -n "groupId1";
 	rename -uid "7A30B28F-4CAC-7966-C9E6-3B9C19630E67";
 	setAttr ".ihi" 0;
 createNode mayaUsdLayerManager -n "mayaUsdLayerManager1";
-	rename -uid "CB7AFAE5-4223-3978-EF82-90ACD7962E6C";
+	rename -uid "1300ED3D-4D4C-7D4B-D8AB-F5B23DEF7368";
 	setAttr ".sst" -type "string" "";
 select -ne :time1;
 	setAttr ".o" 1;
