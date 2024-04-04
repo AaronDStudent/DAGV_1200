@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: Lab9Enterprise.ma
-//Last modified: Wed, Apr 03, 2024 11:47:32 PM
+//Last modified: Wed, Apr 03, 2024 11:54:27 PM
 //Codeset: 1252
 requires maya "2024";
 requires -nodeType "mayaUsdLayerManager" -dataType "pxrUsdStageData" "mayaUsdPlugin" "0.25.0";
@@ -11,18 +11,18 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202310181224-69282f2959";
 fileInfo "osv" "Windows 10 Home v2009 (Build: 19045)";
-fileInfo "UUID" "18C1098B-4558-5502-0328-0BA931A86123";
+fileInfo "UUID" "16024519-41BA-30C7-5A01-D2BF4BE137EC";
 createNode transform -s -n "persp";
 	rename -uid "14C299E0-4EA0-261F-269D-75A7A76C0672";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -12.369424887074516 3.0279647923816411 -1.2708261368831055 ;
-	setAttr ".r" -type "double3" 0 -90 0 ;
-	setAttr ".rpt" -type "double3" -1.232201080757644e-14 -1.3153144182300096e-15 -3.5460665057404172e-15 ;
+	setAttr ".t" -type "double3" 16.797724755432483 4.5514096148793648 -3.9319287525128548 ;
+	setAttr ".r" -type "double3" -10.200000000000077 -253.99999999999378 0 ;
+	setAttr ".rpt" -type "double3" -1.2487861457668136e-14 3.3754502990118318e-16 -3.4380106077560496e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "87B2B288-49A1-2B20-71C2-459411CF2631";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 14.374820299519598;
+	setAttr ".coi" 14.972796678013502;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -11077,7 +11077,7 @@ createNode mesh -n "polySurfaceShape29" -p "polySurface7";
 	setAttr ".vif" yes;
 	setAttr ".gtag[0].gtagnm" -type "string" "back";
 	setAttr ".gtag[0].gtagcmp" -type "componentList" 60 "f[280]" "f[281]" "f[282]" "f[283]" "f[284]" "f[285]" "f[286]" "f[287]" "f[288]" "f[289]" "f[290]" "f[291]" "f[292]" "f[293]" "f[294]" "f[295]" "f[296]" "f[297]" "f[298]" "f[299]" "f[304]" "f[305]" "f[309]" "f[310]" "f[311]" "f[318]" "f[319]" "f[323]" "f[324]" "f[325]" "f[333]" "f[334]" "f[338]" "f[339]" "f[340]" "f[347]" "f[348]" "f[352]" "f[353]" "f[354]" "f[360]" "f[361]" "f[362]" "f[363]" "f[364]" "f[365]" "f[366]" "f[367]" "f[368]" "f[369]" "f[370]" "f[371]" "f[372]" "f[373]" "f[374]" "f[375]" "f[376]" "f[377]" "f[378]" "f[379]";
-	setAttr ".pv" -type "double2" 1.9588230017831401 0.68706965259060893 ;
+	setAttr ".pv" -type "double2" 1.4622934460639954 0.33874164521694183 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 755 ".uvst[0].uvsp";
 	setAttr ".uvst[0].uvsp[0:249]" -type "float2" 1.95639729 0.20159051 1.95986485
@@ -18832,7 +18832,7 @@ createNode deleteComponent -n "deleteComponent4";
 	rename -uid "05A1C187-4813-9A1B-2682-D4BBECD008A5";
 	setAttr ".dc" -type "componentList" 1 "f[0]";
 createNode mayaUsdLayerManager -n "mayaUsdLayerManager1";
-	rename -uid "FF814129-40D8-792C-7254-BE82266712C0";
+	rename -uid "9791FC76-4F39-891A-E7C8-19A03DDBF851";
 	setAttr ".sst" -type "string" "";
 select -ne :time1;
 	setAttr ".o" 1;
